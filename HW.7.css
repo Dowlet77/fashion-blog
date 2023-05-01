@@ -199,4 +199,5 @@ span {
     display: flex;
     justify-content:space-between;
     color: #666666;
+    padding: 10px;
 }
