@@ -42,7 +42,7 @@ ul li {
     /* Поля вокруг текста */
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 400;
@@ -266,4 +266,56 @@ span {
 }
 .pagination div:last-child img{
     margin-left:5px;
+}
+.inst_name{
+    text-align: center;
+    font-size:24px;
+    font-family:'PT Serif';
+    margin-bottom: 30px;
+}
+.Bitmap{
+    display: grid;
+    grid-template-columns:repeat(6,225px);
+    margin-bottom: 60px;
+}
+.Bitmap img{
+    max-width: 100%;
+}
+.Bitmap div{
+    margin-right: 15px;
+}
+.Bitmap div:first-child{
+    margin-left: 15px;
+}
+.logotype{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'PT Serif';
+    margin-bottom:60px;
+}
+.footer_menu{
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 400;
+    transition: color 0.4s;
+}
+.social_logo{
+    display: grid;
+    grid-template-columns:repeat(6,40px);
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.data_site{
+    text-align: center;
+    color: #666666;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
 }
